@@ -1,0 +1,47 @@
+﻿decision,variable_name,content,coding_or_merge,use_scope,missing_rate_2020_2025,year_availability,main_reason
+keep,YEAR,조사연도,pooled 분석 연도 효과 보정,pooled main,0.00%,2020-2025,연도별 문항/분포 차이 보정
+keep,SEX,성별,원문항,all outcomes,0.00%,2020-2025,모든 자살/우울 예측 문헌의 기본 변수
+keep,AGE,만 나이,원문항,all outcomes,0.19%,2020-2025,연령 효과 보정
+keep,GRADE,학년,원문항,all outcomes,0.00%,2020-2025,학교학년 차이 보정
+keep,SCHOOL,학교급,중학교/일반계고/특성화계고,all outcomes,0.79%,2020-2025,중고등학교 및 학교유형 차이 보정
+keep,CTYPE,도시규모,대도시/중소도시/군지역,all outcomes,0.00%,2020-2025,지역 proxy
+keep,academic_achievement_3,학업성적,E_S_RCRD 상/중/하 3수준,all outcomes,0.00% (16),2020-2025,JMIR 3-cohort 및 KYRBS suicide ML 문헌에서 반복 사용
+keep,economic_status_3,주관적 경제상태,E_SES 상/중/하 3수준,all outcomes,0.01% (25),2020-2025,가구소득/경제상태 proxy
+keep,family_structure_3,가족구조,양부모/한부모/기타 또는 비동거,all outcomes,0.02% (51),2020-2025,KYRBS suicide ML 문헌의 가족구조 변수 축약
+keep,stress_3,스트레스,M_STR 높음/보통/낮음 3수준,all outcomes,0.00%,2020-2025,자살/우울 예측 최상위 변수
+keep,sleep_satisfaction_3,수면충족감,M_SLP_EN 좋음/보통/나쁨 3수준,all outcomes,0.00%,2020-2025,최소위험요인 및 KYRBS 문헌의 sleep quality proxy
+keep,avg_sleep_hours,평균 일일 수면시간,(주중수면*5+주말수면*2)/7,all outcomes,40.00% (129331),2020-2025,문헌상 중요하나 결측이 커서 imputation 필요
+keep,PR_HT,주관적 건강인지,원문항,all outcomes,0.00%,2020-2025,최소위험요인 문헌에서 성능 개선 변수
+keep,PR_BI,주관적 체형인지,원문항,all outcomes,0.00%,2020-2025,body image 관련 심리위험 보정
+keep,BMI,체질량지수,HT/WT 기반 파생,all outcomes,2.67% (8640),2020-2025,KYRBS/YRBS harmonized 변수
+keep,smartphone_avg_daily_minutes,평균 일일 스마트폰 사용시간,(주중*5+주말*2)/7,all outcomes,0.00%,2020-2025,screen time을 하나로 축약
+keep,sedentary_total_avg_minutes,평균 일일 총 좌식시간,학습목적 평균+비학습목적 평균,all outcomes,2.88% (9303),2020-2025,좌식시간 변수 축약
+keep,PA_TOT,하루 60분 이상 신체활동 일수,원문항,all outcomes,0.00%,2020-2025,운동/신체활동 core predictor
+keep,PA_MSC,근력강화운동 일수,원문항,all outcomes,0.00%,2020-2025,신체활동 보조 지표
+keep,current_alcohol,현재 음주 여부,최근 30일 1일 이상 음주,all outcomes,0.00%,2020-2025,KYRBS suicide ML 문헌의 음주 변수
+keep,heavy_drunk_any,최근 만취 경험,위험음주 proxy,all outcomes,0.00%,2020-2025,음주 강도 보완
+keep,any_current_tobacco,현재 담배제품 사용,일반담배/액상형/궐련형 통합,all outcomes,0.00%,2020-2025,KYRBS suicide ML 문헌의 흡연 변수
+keep,secondhand_smoke_exposure_any,간접흡연 노출,가정/공공장소 통합,all outcomes,0.00%,2020-2025,흡연환경 proxy로 단일 변수 유지
+keep,sexual_experience,성경험 여부,S_SI binary,all outcomes,0.00%,2020-2025,KYRBS suicide ML 문헌의 위험행동 변수
+conditional_keep,M_SAD_for_suicide_models,최근 12개월 우울감 경험,원문항 binary,suicide outcomes only,0.00%,2020-2025,자살생각/시도 예측 최상위 변수이나 우울감 target에서는 제외
+enhanced_keep,loneliness_3_or_M_LON,외로움 경험,원점수 또는 3수준,2020-2024 enhanced/single-year,0.00% within available years,2020-2024 only,최소위험요인 논문에서 핵심 변수
+enhanced_keep,gad7_total_or_high10,범불안장애,GAD-7 0-21점 또는 >=10 binary,2020-2024 enhanced/single-year,0.00% within available years,2020-2024 only,불안은 최신 KYRBS 자살위험 ML에서 핵심 변수
+optional,drug_use_lifetime,평생 약물사용 경험,binary,2022-2025/single-year,33.96% pooled,2022-2025 only,문헌상 중요하나 2020-2021 미조사
+optional,F_BR,아침식사 빈도,원문항 또는 결식 binary,sensitivity only,0.00% (6),2020-2025,식습관 proxy이나 변수 축소 목표에서는 낮은 우선순위
+optional,WC_MN,체중조절 노력,원문항,sensitivity only,0.00%,2020-2025,BMI/체형인지와 중복
+optional,parent_college_or_higher_any,부모 대졸 이상 여부,부/모 학력 통합,sensitivity only,depends on missing coding,2020-2025,경제상태/학업성적과 중복 가능
+main_plus_keep,school_injury_treatment_any,최근 12개월 학교 손상 병원치료 경험,"I_SCH_TRT: 2=있음, 1=없음으로 binary",2020-2025 main-plus,0.00% (0),2020-2025,프로토콜의 bullying/violence/injury 축 및 KYRBS suicide ML 문헌의 school injury 변수 반영
+main_plus_keep,lifetime_alcohol_experience,평생 음주 경험,"AC_LT: 2=있음, 1=없음으로 binary",2020-2025 main-plus,0.00% (0),2020-2025,현재 음주만으로 놓치는 위험행동 이력 보완
+main_plus_keep,lifetime_tobacco_any,평생 담배제품 경험 통합,"TC_LT, TC_EC_LT, TC_HTP_LT 중 하나라도 경험=1",2020-2025 main-plus,0.00% (0),2020-2025,"프로토콜의 tobacco/vaping 축 반영, 현재 흡연과 다른 lifetime risk proxy"
+sensitivity_keep,lifetime_cigarette_experience,평생 일반담배 경험,"TC_LT: 2=있음, 1=없음으로 binary",tobacco decomposition sensitivity,0.00% (0),2020-2025,통합 담배제품 변수의 구성요소 확인용
+enhanced_keep,violence_treatment_any,폭력으로 인한 병원치료 경험,"V_TRT: 2 이상=있음, 1=없음",2020-2024 enhanced,16.75% (54170),2020-2024,"프로토콜의 bullying victimization 축, 2019 KYRBS suicide ML 문헌의 violence 변수 반영"
+enhanced_keep,gad7_total,범불안장애 GAD-7 총점,M_GAD_1~7을 0-3점으로 변환 후 합산(0-21),2020-2024 enhanced,16.75% (54170),2020-2024,최신 KYRBS 자살위험 ML 문헌에서 불안은 핵심 정신건강 predictor
+enhanced_keep,gad7_high10,범불안장애 고위험,gad7_total >= 10,2020-2024 enhanced,16.75% (54170),2020-2024,GAD-7 표준 threshold 기반 민감도/해석용
+enhanced_keep,loneliness_3,외로움 3수준,M_LON: 낮음/보통/높음 3수준,2020-2024 enhanced,16.75% (54170),2020-2024,최소위험요인 논문에서 외로움은 자살생각/시도 핵심 predictor
+enhanced_keep,loneliness_high,외로움 높음 여부,M_LON 4-5=1,2020-2024 enhanced,16.75% (54170),2020-2024,외로움 threshold 기반 민감도/해석용
+enhanced_keep,asthma_lifetime,평생 천식 의사진단,"AS_DG_LT: 2=있음, 1=없음으로 binary",2020-2024 enhanced,16.75% (54170),2020-2024,KYRBS suicide attempt ML 문헌의 comorbidity 변수
+enhanced_keep,allergic_rhinitis_lifetime,평생 알레르기비염 의사진단,"RH_DG_LT: 2=있음, 1=없음으로 binary",2020-2024 enhanced,16.75% (54170),2020-2024,JMIR allergic rhinitis suicidality 논문 및 KYRBS comorbidity 축 반영
+enhanced_keep,atopic_dermatitis_lifetime,평생 아토피피부염 의사진단,"ECZ_DG_LT: 2=있음, 1=없음으로 binary",2020-2024 enhanced,16.75% (54170),2020-2024,KYRBS suicide attempt ML 문헌의 comorbidity 변수
+enhanced_keep,atopic_disease_any,아토피성 질환 경험 여부,천식/알레르기비염/아토피피부염 중 하나라도 있음=1,2020-2024 enhanced,16.75% (54170),2020-2024,질환 3개 문항을 하나의 comorbidity proxy로 축약
+sensitivity_keep,atopic_disease_count,아토피성 질환 개수,천식/알레르기비염/아토피피부염 binary 합계(0-3),2020-2024 sensitivity,16.75% (54170),2020-2024,질환 부담 정도를 반영하는 보조 변수
+sensitivity_keep,substance_access_reported_any,주류/담배 구매 접근성 응답 경험,"AC_ACCESS 또는 TC_ACCESS 응답 있음=1, 비해당/무응답=0",2020-2025 sensitivity,0.00% (0),2020-2025,접근성 변수는 조건부 문항이므로 주분석보다 보조분석 후보

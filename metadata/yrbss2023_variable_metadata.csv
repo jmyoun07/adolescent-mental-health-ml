@@ -1,0 +1,251 @@
+﻿variable_name,start,end,width,storage_type,variable_label,value_labels,nonmissing_n,missing_n,missing_rate,top_observed_values
+Q1,17,17,1,numeric_or_code,How old are you,1=12 years old or younger; 2=13 years old; 3=14 years old; 4=15 years old; 5=16 years old; 6=17 years old; 7=18 years old or older,20005,98,0.004874894294383923,4:5526; 5:5208; 6:4458; 3:2569; 7:2167; 1:44; 2:33
+Q2,18,18,1,numeric_or_code,What is your sex,1=Female; 2=Male,19945,158,0.007859523454210815,2:10061; 1:9884
+Q3,19,19,1,numeric_or_code,In what grade are you,1=9th grade; 2=10th grade; 3=11th grade; 4=12th grade; 5=Ungraded or other grade,19910,193,0.009600557130776502,1:5680; 2:5410; 3:4811; 4:3961; 5:48
+Q4,20,20,1,numeric_or_code,Are you Hispanic/Latino,1=Yes; 2=No,19849,254,0.01263493010993384,2:15852; 1:3997
+Q5,21,28,8,string,What is your race,,18714,1389,0.06909416504999254,E:11372; C:2081; A:1721; B:1056; A   E:750; C E:434; B  E:281; D:240; A C:122; A C E:90; B D:83; DE:81
+Q6,29,32,4,numeric_or_code,How tall are you,,17814,2289,0.1138636024473959,1.68:1559; 1.63:1539; 1.70:1524; 1.65:1453; 1.73:1449; 1.60:1428; 1.78:1309; 1.75:1277; 1.57:1150; 1.80:1066; 1.83:1046; 1.55:676
+Q7,33,38,6,numeric_or_code,How much do you weigh,,17814,2289,0.1138636024473959,54.43:916; 58.97:871; 63.50:812; 68.04:768; 61.24:702; 56.70:668; 72.58:616; 65.77:593; 52.16:549; 49.90:522; 81.65:432; 74.84:408
+Q8,39,39,1,numeric_or_code,Seat belt use,1=Never; 2=Rarely; 3=Sometimes; 4=Most of the time; 5=Always,15071,5032,0.2503108988708153,5:8506; 4:4114; 3:1439; 2:653; 1:359
+Q9,40,40,1,numeric_or_code,Riding with a drinking driver,1=0 times; 2=1 time; 3=2 or 3 times; 4=4 or 5 times; 5=6 or more times,19598,505,0.025120628761876335,1:16674; 2:1117; 3:879; 5:703; 4:225
+Q10,41,41,1,numeric_or_code,Drinking and driving,1=Did not drive; 2=Did not drive when drinking; 3=1 time; 4=2 or 3 times; 5=4 or 5 times; 6=6 or more times,18976,1127,0.05606128438541511,1:10400; 2:8095; 3:201; 4:136; 6:115; 5:29
+Q11,42,42,1,numeric_or_code,Texting and driving,1=Did not drive; 2=Did not text while driving; 3=1 or 2 days; 4=3 to 5 days; 5=6 to 9 days; 6=10 to 19 days; 7=20 to 29 days; 8=All 30 days,17865,2238,0.11132666766154305,1:9796; 2:4755; 3:1001; 8:861; 4:501; 6:352; 5:312; 7:287
+Q12,43,43,1,numeric_or_code,Weapon carrying at school,1=0 days; 2=1 day; 3=2 or 3 days; 4=4 or 5 days; 5=6 or more days,19595,508,0.02526986021986768,1:18747; 5:414; 2:203; 3:168; 4:63
+Q13,44,44,1,numeric_or_code,Gun carrying,1=0 days; 2=1 day; 3=2 or 3 days; 4=4 or 5 days; 5=6 or more days,11374,8729,0.4342137989354823,1:10861; 5:187; 2:160; 3:119; 4:47
+Q14,45,45,1,numeric_or_code,Safety concerns at school,1=0 days; 2=1 day; 3=2 or 3 days; 4=4 or 5 days; 5=6 or more days,18982,1121,0.05576282146943242,1:16681; 2:1094; 3:692; 5:332; 4:183
+Q15,46,46,1,numeric_or_code,Threatened at school,1=0 times; 2=1 time; 3=2 or 3 times; 4=4 or 5 times; 5=6 or 7 times; 6=8 or 9 times; 7=10 or 11 times; 8=12 or more times,17974,2129,0.1059045913545242,1:16260; 2:775; 3:519; 8:163; 4:151; 5:62; 6:34; 7:10
+Q16,47,47,1,numeric_or_code,Times in fight past 12 months,1=0 times; 2=1 time; 3=2 or 3 times; 4=4 or 5 times; 5=6 or 7 times; 6=8 or 9 times; 7=10 or 11 times; 8=12 or more times,11652,8451,0.4203850171616177,1:9309; 2:1100; 3:748; 4:225; 8:153; 5:67; 6:35; 7:15
+Q17,48,48,1,numeric_or_code,Physical fighting at school,1=0 times; 2=1 time; 3=2 or 3 times; 4=4 or 5 times; 5=6 or 7 times; 6=8 or 9 times; 7=10 or 11 times; 8=12 or more times,17460,2643,0.13147291449037457,1:16014; 2:903; 3:310; 8:99; 4:79; 5:30; 6:13; 7:12
+Q18,49,49,1,numeric_or_code,Saw physical violence in neighborhood,1=Yes; 2=No,14577,5526,0.2748843456200567,2:11082; 1:3495
+Q19,50,50,1,numeric_or_code,Ever been physically forced sexual intercourse,1=Yes; 2=No,17302,2801,0.13933243794458539,2:15639; 1:1663
+Q20,51,51,1,numeric_or_code,Sexual violence,1=0 times; 2=1 time; 3=2 or 3 times; 4=4 or 5 times; 5=6 or more times,15752,4351,0.2164353579067801,1:13912; 2:777; 3:626; 5:275; 4:162
+Q21,52,52,1,numeric_or_code,Sexual dating violence,1=Did not date; 2=0 times; 3=1 time; 4=2 or 3 times; 5=4 or 5 times; 6=6 or more times,15599,4504,0.22404616226433866,2:12550; 1:2158; 3:388; 4:286; 6:151; 5:66
+Q22,53,53,1,numeric_or_code,Physical dating violence,1=Did not date; 2=0 times; 3=1 time; 4=2 or 3 times; 5=4 or 5 times; 6=6 or more times,19266,837,0.04163557677958513,2:10299; 1:7759; 3:496; 4:349; 6:257; 5:106
+Q23,54,54,1,numeric_or_code,treated unfairly in school b/c race/ethnicity,1=Never; 2=Rarely; 3=Sometimes; 4=Most of the time; 5=Always,18286,1817,0.09038451972342436,1:12530; 2:2836; 3:2024; 4:471; 5:425
+Q24,55,55,1,numeric_or_code,Bullied at school,1=Yes; 2=No,19902,201,0.009998507685420087,2:15856; 1:4046
+Q25,56,56,1,numeric_or_code,Electronic bullying,1=Yes; 2=No,19898,205,0.01019748296274188,2:16475; 1:3423
+Q26,57,57,1,numeric_or_code,Sad or hopeless,1=Yes; 2=No,19863,240,0.011938516639307567,2:11755; 1:8108
+Q27,58,58,1,numeric_or_code,Considered suicide,1=Yes; 2=No,19667,436,0.02168830522807541,2:15453; 1:4214
+Q28,59,59,1,numeric_or_code,Made a suicide plan past 12 months,1=Yes; 2=No,18366,1737,0.08640501417698851,2:15154; 1:3212
+Q29,60,60,1,numeric_or_code,Actually attempted suicide,1=0 times; 2=1 time; 3=2 or 3 times; 4=4 or 5 times; 5=6 or more times,19336,767,0.03815350942645376,1:17341; 2:1109; 3:630; 5:156; 4:100
+Q30,61,61,1,numeric_or_code,Injurious suicide attempt,1=Did not attempt suicide; 2=Yes; 3=No,14635,5468,0.2719992040988907,1:13143; 3:1120; 2:372
+Q31,62,62,1,numeric_or_code,Ever cigarette use,1=Yes; 2=No,17442,2661,0.13236830323832263,2:14331; 1:3111
+Q32,63,63,1,numeric_or_code,Initiation of cigarette smoking,1=Never smoked a cigarette; 2=8 years old or younger; 3=9 or 10 years old; 4=11 or 12 years old; 5=13 or 14 years old; 6=15 or 16 years old; 7=17 years old or older,16820,3283,0.16330895886186142,1:13982; 5:765; 6:697; 4:467; 2:386; 3:285; 7:238
+Q33,64,64,1,numeric_or_code,Current cigarette use,1=0 days; 2=1 or 2 days; 3=3 to 5 days; 4=6 to 9 days; 5=10 to 19 days; 6=20 to 29 days; 7=All 30 days,19739,364,0.01810675023628314,1:18933; 2:386; 7:138; 3:122; 4:80; 5:58; 6:22
+Q34,65,65,1,numeric_or_code,Smoked >10 cigarettes,1=Did not smoke cigarettes; 2=Less than 1 cigarette; 3=1 cigarette; 4=2 to 5 cigarettes; 5=6 to 10 cigarettes; 6=11 to 20 cigarettes; 7=More than 20 cigarettes,12157,7946,0.3952643883997413,1:11629; 2:229; 3:126; 4:104; 7:41; 5:17; 6:11
+Q35,66,66,1,numeric_or_code,Electronic vapor product use,1=Yes; 2=No,19804,299,0.01487340197980401,2:12835; 1:6969
+Q36,67,67,1,numeric_or_code,Current electronic vapor product use,1=0 days; 2=1 or 2 days; 3=3 to 5 days; 4=6 to 9 days; 5=10 to 19 days; 6=20 to 29 days; 7=All 30 days,19091,1012,0.05034074516241357,1:15705; 7:1135; 2:835; 3:420; 5:398; 6:306; 4:292
+Q37,68,68,1,numeric_or_code,EVP from store,1=Did not use EVP; 2=Friend or family; 3=Vape shop or tobacco shop; 4=Store or gas station; 5=Mall kiosk or stand; 6=Internet; 7=Took from a store; 8=Some other way,13925,6178,0.3073173158235089,1:11238; 2:1393; 8:694; 3:292; 4:156; 7:87; 6:44; 5:21
+Q38,69,69,1,numeric_or_code,Current smokeless tobacco use,1=0 days; 2=1 or 2 days; 3=3 to 5 days; 4=6 to 9 days; 5=10 to 19 days; 6=20 to 29 days; 7=All 30 days,18923,1180,0.05869770680992887,1:18431; 2:179; 7:139; 3:74; 4:44; 5:39; 6:17
+Q39,70,70,1,numeric_or_code,Current cigar use,1=0 days; 2=1 or 2 days; 3=3 to 5 days; 4=6 to 9 days; 5=10 to 19 days; 6=20 to 29 days; 7=All 30 days,18942,1161,0.05775257424265035,1:18074; 2:367; 7:169; 3:157; 4:83; 5:67; 6:25
+Q40,71,71,1,numeric_or_code,All tobacco product cessation,1=Did not use tobacco products; 2=Yes; 3=No,15210,4893,0.24339650798388301,1:10873; 2:2326; 3:2011
+Q41,72,72,1,numeric_or_code,Initiation of alcohol use,1=Never drank alcohol; 2=8 years old or younger; 3=9 or 10 years old; 4=11 or 12 years old; 5=13 or 14 years old; 6=15 or 16 years old; 7=17 years old or older,19248,855,0.0425309655275332,1:10311; 6:2778; 5:2683; 4:1165; 2:994; 3:685; 7:632
+Q42,73,73,1,numeric_or_code,Current alcohol use,1=0 days; 2=1 or 2 days; 3=3 to 5 days; 4=6 to 9 days; 5=10 to 19 days; 6=20 to 29 days; 7=All 30 days,19202,901,0.04481918121673382,1:15050; 2:2377; 3:882; 4:439; 5:250; 7:133; 6:71
+Q43,74,74,1,numeric_or_code,Current binge drinking,1=0 days; 2=1 day; 3=2 days; 4=3 to 5 days; 5=6 to 9 days; 6=10 to 19 days; 7=20 or more days,15441,4662,0.23190568571854947,1:14010; 2:480; 3:346; 4:327; 5:142; 7:85; 6:51
+Q44,75,75,1,numeric_or_code,Drinks in a row past 30 days,1=Did not drink in past 30 days; 2=1 or 2 drinks; 3=3 drinks; 4=4 drinks; 5=5 drinks; 6=6 or 7 drinks; 7=8 or 9 drinks; 8=10 or more drinks,14414,5689,0.28299258817091977,1:11533; 2:1265; 8:360; 6:332; 5:295; 3:238; 4:219; 7:172
+Q45,76,76,1,numeric_or_code,Source of alcohol,1=Did not drink in past 30 days; 2=Bought in store; 3=Bought in restaurant; 4=Bought at public event; 5=I gave someone money to buy; 6=Someone gave it to me; 7=Took from store/family; 8=Some other way,14305,5798,0.2884146644779386,1:11196; 6:1203; 8:786; 7:449; 5:374; 2:209; 3:51; 4:37
+Q46,77,77,1,numeric_or_code,Ever marijuana use,1=0 times; 2=1 or 2 times; 3=3 to 9 times; 4=10 to 19 times; 5=20 to 39 times; 6=40 to 99 times; 7=100 or more times,16603,3500,0.17410336765656867,1:11383; 7:1432; 2:1279; 3:1010; 4:587; 5:477; 6:435
+Q47,78,78,1,numeric_or_code,Initiation of marijuana use,1=Never tried marijuana; 2=8 years old or younger; 3=9 or 10 years old; 4=11 or 12 years old; 5=13 or 14 years old; 6=15 or 16 years old; 7=17 years old or older,19239,864,0.04297865990150724,1:13342; 6:2128; 5:2099; 4:725; 7:498; 2:246; 3:201
+Q48,79,79,1,numeric_or_code,Current marijuana use,1=0 times; 2=1 or 2 times; 3=3 to 9 times; 4=10 to 19 times; 5=20 to 39 times; 6=40 or more times,19600,503,0.02502114112321544,1:16193; 2:1131; 6:851; 3:688; 4:419; 5:318
+Q49,80,80,1,numeric_or_code,Ever prescription pain medicine use,1=0 times; 2=1 or 2 times; 3=3 to 9 times; 4=10 to 19 times; 5=20 to 39 times; 6=40 or more times,19527,576,0.028652439934338157,1:17165; 2:1173; 3:526; 6:306; 4:213; 5:144
+Q50,81,81,1,numeric_or_code,Ever cocaine use,1=0 times; 2=1 or 2 times; 3=3 to 9 times; 4=10 to 19 times; 5=20 to 39 times; 6=40 or more times,16847,3256,0.1619658757399393,1:16411; 2:170; 6:134; 3:68; 4:42; 5:22
+Q51,82,82,1,numeric_or_code,Ever inhalant use,1=0 times; 2=1 or 2 times; 3=3 to 9 times; 4=10 to 19 times; 5=20 to 39 times; 6=40 or more times,14226,5877,0.29234442620504403,1:13344; 2:460; 3:174; 6:130; 4:72; 5:46
+Q52,83,83,1,numeric_or_code,Ever heroin use,1=0 times; 2=1 or 2 times; 3=3 to 9 times; 4=10 to 19 times; 5=20 to 39 times; 6=40 or more times,19322,781,0.03884992289708004,1:19016; 6:123; 2:91; 3:41; 4:26; 5:25
+Q53,84,84,1,numeric_or_code,Ever methamphetamine use,1=0 times; 2=1 or 2 times; 3=3 to 9 times; 4=10 to 19 times; 5=20 to 39 times; 6=40 or more times,18981,1122,0.05581256528876287,1:18641; 2:123; 6:121; 3:49; 4:28; 5:19
+Q54,85,85,1,numeric_or_code,Ever ecstasy use,1=0 times; 2=1 or 2 times; 3=3 to 9 times; 4=10 to 19 times; 5=20 to 39 times; 6=40 or more times,16495,3608,0.17947570014425707,1:16016; 2:243; 6:99; 3:83; 4:36; 5:18
+Q55,86,86,1,numeric_or_code,Illegal injected drug use,1=0 times; 2=1 time; 3=2 or more times,15097,5006,0.24901755956822366,1:14905; 3:133; 2:59
+Q56,87,87,1,numeric_or_code,Ever sexual intercourse,1=Yes; 2=No,16121,3982,0.1980798885738447,2:10701; 1:5420
+Q57,88,88,1,numeric_or_code,Sex before 13 years,1=Never had sex; 2=11 years old or younger; 3=12 years old; 4=13 years old; 5=14 years old; 6=15 years old; 7=16 years old; 8=17 years old or older,18573,1530,0.07610804357558573,1:12658; 6:1515; 7:1428; 5:1127; 8:703; 4:545; 2:383; 3:214
+Q58,89,89,1,numeric_or_code,Number of sex partners,1=Never had sex; 2=1 person; 3=2 people; 4=3 people; 5=4 people; 6=5 people; 7=6 or more people,17645,2458,0.12227030791424165,1:12062; 2:2746; 3:1130; 4:589; 7:582; 5:340; 6:196
+Q59,90,90,1,numeric_or_code,Current sexual activity,1=Never had sex; 2=None during past 3 months; 3=1 person; 4=2 people; 5=3 people; 6=4 people; 7=5 people; 8=6 or more people,18339,1764,0.08774809729891062,1:12523; 3:3252; 2:1839; 4:393; 5:141; 8:127; 6:46; 7:18
+Q60,91,91,1,numeric_or_code,Alcohol/drugs and sex,1=Never had sex; 2=Yes; 3=No,16448,3655,0.18181365965278815,1:10989; 3:4522; 2:937
+Q61,92,92,1,numeric_or_code,Condom use,1=Never had sex; 2=Yes; 3=No,18312,1791,0.08909118042083271,1:12515; 2:3098; 3:2699
+Q62,93,93,1,numeric_or_code,Birth control pill use,1=Never had sex; 2=No birth control; 3=Birth control pills; 4=Condoms; 5=IUD or implant; 6=Shot/patch/birth control ring; 7=Withdrawal or something else; 8=Not sure,17944,2159,0.10739690593443764,1:12747; 4:2277; 3:923; 2:682; 5:401; 7:381; 8:294; 6:239
+Q63,94,94,1,numeric_or_code,Sex of sexual contacts,1=Never had sexual contact; 2=Females; 3=Males; 4=Females and males,15381,4722,0.23489031487837636,1:8149; 2:3606; 3:2748; 4:878
+Q64,95,95,1,numeric_or_code,Sexual identity,1=Heterosexual (straight); 2=Gay or lesbian; 3=Bisexual; 4=Some other way; 5=Not sure; 6=Don't know what this means,18100,2003,0.09963687011888772,1:13289; 3:2053; 5:850; 4:760; 2:683; 6:465
+Q65,96,96,1,numeric_or_code,Transgender,"1=No; 2=Yes, I am transgender; 3=Not sure if I am transgender; 4=Don't know what this means",18301,1802,0.08963836243346764,1:16986; 2:612; 3:428; 4:275
+Q66,97,97,1,numeric_or_code,Perception of weight,1=Very underweight; 2=Slightly underweight; 3=About the right weight; 4=Slightly overweight; 5=Very overweight,11795,8308,0.41327165099736357,3:5555; 4:3139; 2:1871; 5:756; 1:474
+Q67,98,98,1,numeric_or_code,Weight loss,1=Lose weight; 2=Gain weight; 3=Stay the same weight; 4=Not trying to do anything,13936,6167,0.306770133810874,1:6407; 2:2996; 4:2569; 3:1964
+Q68,99,99,1,numeric_or_code,Fruit juice drinking,1=Did not drink fruit juice; 2=1 to 3 times; 3=4 to 6 times; 4=1 time per day; 5=2 times per day; 6=3 times per day; 7=4 or more times per day,16608,3495,0.17385464855991642,2:6374; 1:5885; 3:1918; 4:877; 5:689; 7:548; 6:317
+Q69,100,100,1,numeric_or_code,Fruit eating,1=Did not eat fruit; 2=1 to 3 times; 3=4 to 6 times; 4=1 time per day; 5=2 times per day; 6=3 times per day; 7=4 or more times per day,19027,1076,0.05352434959956225,2:6457; 3:4089; 1:2299; 5:2212; 4:2164; 7:952; 6:854
+Q70,101,101,1,numeric_or_code,Green salad eating,1=Did not eat green salad; 2=1 to 3 times; 3=4 to 6 times; 4=1 time per day; 5=2 times per day; 6=3 times per day; 7=4 or more times per day,15336,4767,0.23712878674824653,1:6839; 2:5683; 3:1280; 4:889; 5:327; 7:209; 6:109
+Q71,102,102,1,numeric_or_code,Potato eating,1=Did not eat potatoes; 2=1 to 3 times; 3=4 to 6 times; 4=1 time per day; 5=2 times per day; 6=3 times per day; 7=4 or more times per day,15245,4858,0.24165547430731732,2:6984; 1:5556; 3:1487; 4:608; 5:282; 7:202; 6:126
+Q72,103,103,1,numeric_or_code,Carrot eating,1=Did not eat carrots; 2=1 to 3 times; 3=4 to 6 times; 4=1 time per day; 5=2 times per day; 6=3 times per day; 7=4 or more times per day,15276,4827,0.24011341590807342,1:8451; 2:4973; 3:857; 4:541; 5:211; 7:157; 6:86
+Q73,104,104,1,numeric_or_code,Other vegetable eating,1=Did not eat other vegetables; 2=1 to 3 times; 3=4 to 6 times; 4=1 time per day; 5=2 times per day; 6=3 times per day; 7=4 or more times per day,15212,4891,0.2432970203452221,2:5684; 3:3335; 1:3026; 4:1536; 5:965; 7:369; 6:297
+Q74,105,105,1,numeric_or_code,No soda drinking,1=Did not drink soda or pop; 2=1 to 3 times; 3=4 to 6 times; 4=1 time per day; 5=2 times per day; 6=3 times per day; 7=4 or more times per day,15183,4920,0.2447395911058051,2:5975; 1:4383; 3:2240; 4:1134; 5:743; 7:423; 6:285
+Q75,106,106,1,numeric_or_code,Breakfast eating,1=0 days; 2=1 day; 3=2 days; 4=3 days; 5=4 days; 6=5 days; 7=6 days; 8=7 days,14268,5835,0.2902551857931652,8:3556; 1:2841; 3:1876; 4:1674; 2:1345; 6:1128; 5:1101; 7:747
+Q76,107,107,1,numeric_or_code,Physical activity >= 5 days,1=0 days; 2=1 day; 3=2 days; 4=3 days; 5=4 days; 6=5 days; 7=6 days; 8=7 days,18876,1227,0.061035666318459934,8:4849; 1:2813; 6:2669; 4:2089; 5:1882; 3:1718; 7:1544; 2:1312
+Q77,108,108,1,numeric_or_code,PE attendance,1=0 days; 2=1 day; 3=2 days; 4=3 days; 5=4 days; 6=5 days,13876,6227,0.30975476297070087,1:7283; 6:3761; 4:1543; 3:599; 5:398; 2:292
+Q78,109,109,1,numeric_or_code,Sports team participation,1=0 teams; 2=1 team; 3=2 teams; 4=3 or more teams,12964,7139,0.35512112620006964,1:6267; 2:3059; 3:2012; 4:1626
+Q79,110,110,1,numeric_or_code,Concussion,1=0 times; 2=1 time; 3=2 times; 4=3 times; 5=4 or more times,15509,4594,0.228523106004079,1:13209; 2:1348; 3:451; 5:327; 4:174
+Q80,111,111,1,numeric_or_code,Social media,1=I do not use social media; 2=A few times a month; 3=About once a week; 4=A few times a week; 5=About once a day; 6=Several times a day; 7=About once an hour; 8=More than once an hour,15203,4900,0.24374471471919615,6:5888; 8:4803; 7:1181; 1:1082; 5:904; 4:708; 2:406; 3:231
+Q81,112,112,1,numeric_or_code,HIV testing,1=Yes; 2=No; 3=Not sure,15519,4584,0.22802566781077452,2:12101; 3:2346; 1:1072
+Q82,113,113,1,numeric_or_code,STD testing,1=Yes; 2=No; 3=Not sure,12778,7325,0.364373476595533,2:11243; 3:805; 1:730
+Q83,114,114,1,numeric_or_code,Oral health care,1=During the past 12 months; 2=Between 12 and 24 months ago; 3=More than 24 months ago; 4=Never; 5=Not sure,17924,2179,0.10839178232104661,1:13356; 2:1912; 5:1387; 3:915; 4:354
+Q84,115,115,1,numeric_or_code,Current mental health,1=Never; 2=Rarely; 3=Sometimes; 4=Most of the time; 5=Always,15705,4398,0.21877331741531114,3:4751; 4:3377; 2:3308; 1:2838; 5:1431
+Q85,116,116,1,numeric_or_code,Hours of sleep on school night,1=4 or less hours; 2=5 hours; 3=6 hours; 4=7 hours; 5=8 hours; 6=9 hours; 7=10 or more hours,17441,2662,0.1324180470576531,4:4865; 3:4342; 5:3009; 2:2562; 1:1666; 6:733; 7:264
+Q86,117,117,1,numeric_or_code,Unstable Housing,1=Home of parent or gaurdian; 2=Home of other people; 3=Shelter or emergency housing; 4=Motel or hotel; 5=Public place; 6=No usual place; 7=Somewhere else,14541,5562,0.2766751231159528,1:13851; 2:285; 7:192; 3:81; 4:51; 6:47; 5:34
+Q87,118,118,1,numeric_or_code,Grades in school,1=Mostly A's; 2=Mostly B's; 3=Mostly C's; 4=Mostly D's; 5=Mostly F's; 6=None of these grades; 7=Not sure,16535,3568,0.17748594737103915,1:6585; 2:5094; 3:2667; 4:842; 7:762; 5:506; 6:79
+Q88,119,119,1,numeric_or_code,Ever sexual abuse by adult or older person ACEs,1=Yes; 2=No,13823,6280,0.31239118539521465,2:12648; 1:1175
+Q89,120,120,1,numeric_or_code,Ever parental emotional abuse ACEs,1=Never; 2=Rarely; 3=Sometimes; 4=Most of the time; 5=Always,13920,6183,0.30756603492016116,1:5396; 2:3595; 3:3138; 4:1252; 5:539
+Q90,121,121,1,numeric_or_code,Ever parental physical abuse ACEs,1=Never; 2=Rarely; 3=Sometimes; 4=Most of the time; 5=Always,13917,6186,0.3077152663781525,1:9387; 2:2795; 3:1342; 4:270; 5:123
+Q91,122,122,1,numeric_or_code,Adults in home intimate partner violence ACEs,1=Never; 2=Rarely; 3=Sometimes; 4=Most of the time; 5=Always,13753,6350,0.31587325274834605,1:10734; 2:1724; 3:938; 4:248; 5:109
+Q92,123,123,1,numeric_or_code,Current Rx Pain med w/out Rx,1=0 times; 2=1 or 2 times; 3=3 to 9 times; 4=10 to 19 times; 5=20 to 39 times; 6=40 or more times,12381,7722,0.38412177286972093,1:11731; 2:336; 3:160; 6:73; 4:60; 5:21
+Q93,124,124,1,numeric_or_code,Ever used hallucinogenic drugs,1=0 times; 2=1 or 2 times; 3=3 to 9 times; 4=10 to 19 times; 5=20 to 39 times; 6=40 or more times,11171,8932,0.44431179425956324,1:10441; 2:381; 3:188; 6:76; 4:57; 5:28
+Q94,125,125,1,numeric_or_code,If verbally asked for consent last sexual contact,1=Never had sexual contact; 2=Yes; 3=No,11333,8770,0.43625329552803066,1:5841; 2:4417; 3:1075
+Q95,126,126,1,numeric_or_code,Sports drinks,1=I did not drink; 2=1 to 3 times; 3=4 to 6 times; 4=1 time per day; 5=2 times per day; 6=3 times per day; 7=4 or more times per day,11909,8194,0.40760085559369247,1:5359; 2:3754; 3:1306; 4:642; 5:358; 7:301; 6:189
+Q96,127,127,1,numeric_or_code,Plain water,1=Did not drink water; 2=1 to 3 times; 3=4 to 6 times; 4=1 time per day; 5=2 times per day; 6=3 times per day; 7=4 or more times per day,13584,6519,0.3242799582151918,7:4903; 6:2149; 5:2114; 3:1676; 2:1201; 4:1102; 1:439
+Q97,128,128,1,numeric_or_code,Muscle strengthening,1=0 days; 2=1 day; 3=2 days; 4=3 days; 5=4 days; 6=5 days; 7=6 days; 8=7 days,11197,8906,0.4430184549569716,1:3361; 8:1541; 6:1311; 4:1259; 3:1181; 5:1010; 2:976; 7:558
+Q98,129,129,1,numeric_or_code,Sunburn,1=0 times; 2=1 time; 3=2 times; 4=3 times; 5=4 times; 6=5 or more times,10788,9315,0.4633636770631249,1:4920; 3:1517; 2:1416; 6:1389; 4:1060; 5:486
+Q99,130,130,1,numeric_or_code,How often household adult met basic needs ACEs,1=Never; 2=Rarely; 3=Sometimes; 4=Most of the time; 5=Always,15750,4353,0.21653484554544097,5:11569; 4:2006; 1:1042; 3:709; 2:424
+Q100,131,131,1,numeric_or_code,Ever lived w/parent/guardian w/substance abuse ACE,1=Yes; 2=No,13227,6876,0.3420385017161618,2:9398; 1:3829
+Q101,132,132,1,numeric_or_code,Ever lived with parent/guardian w mental illness A,1=Yes; 2=No,13305,6798,0.3381584838083868,2:8999; 1:4306
+Q102,133,133,1,numeric_or_code,Ever incarcerated parent/guardian ACEs,1=Yes; 2=No,13342,6761,0.3363179624931602,2:10982; 1:2360
+Q103,134,134,1,numeric_or_code,Feel close to people at their school,1=Strongly agree; 2=Agree; 3=Not sure; 4=Disagree; 5=Strongly disagree,11177,8926,0.44401333134358056,2:4383; 3:2760; 1:1633; 4:1419; 5:982
+Q104,135,135,1,numeric_or_code,Parental monitoring,1=Never; 2=Rarely; 3=Sometimes; 4=Most of the time; 5=Always,10850,9253,0.4602795602646371,5:5222; 4:3816; 3:984; 2:473; 1:355
+Q105,136,136,1,numeric_or_code,Unfairly disciplined at school,1=Yes; 2=No,10583,9520,0.4735611600258668,2:8412; 1:2171
+Q106,137,137,1,numeric_or_code,Difficulty concentrating,1=Yes; 2=No,10946,9157,0.4555041536089141,2:5685; 1:5261
+Q107,138,138,1,numeric_or_code,How well speak English,1=Very well; 2=Well; 3=Not well; 4=Not at all,10795,9308,0.46301547032781176,1:8858; 2:1692; 3:157; 4:88
+QN8,185,185,1,numeric_or_code,Did not always wear a seat belt,,15071,5032,0.2503108988708153,2:8506; 1:6565
+QN9,186,186,1,numeric_or_code,Rode with a driver who had been drinking alcohol,,19598,505,0.025120628761876335,2:16674; 1:2924
+QN10,187,187,1,numeric_or_code,Drove a car or other vehicle when they had been drinking alcohol,,8576,11527,0.5733970054220763,2:8095; 1:481
+QN11,188,188,1,numeric_or_code,Texted or e-mailed while driving a car or other vehicle	,,8069,12034,0.5986171218226135,2:4755; 1:3314
+QN12,189,189,1,numeric_or_code,Carried a weapon on school property,,19595,508,0.02526986021986768,2:18747; 1:848
+QN13,190,190,1,numeric_or_code,Carried a gun,,11374,8729,0.4342137989354823,2:10861; 1:513
+QN14,191,191,1,numeric_or_code,Did not go to school because they felt unsafe at school or on their way to or from school,,18982,1121,0.05576282146943242,2:16681; 1:2301
+QN15,192,192,1,numeric_or_code,Were threatened or injured with a weapon on school property,,17974,2129,0.1059045913545242,2:16260; 1:1714
+QN16,193,193,1,numeric_or_code,Were in a physical fight,,11652,8451,0.4203850171616177,2:9309; 1:2343
+QN17,194,194,1,numeric_or_code,Were in a physical fight on school property,,17460,2643,0.13147291449037457,2:16014; 1:1446
+QN18,195,195,1,numeric_or_code,"Ever saw someone get physically attacked, beaten, stabbed, or shot in their neighborhood",,14577,5526,0.2748843456200567,2:11082; 1:3495
+QN19,196,196,1,numeric_or_code,Were ever physically forced to have sexual intercourse,,17302,2801,0.13933243794458539,2:15639; 1:1663
+QN20,197,197,1,numeric_or_code,Experienced sexual violence,,15752,4351,0.2164353579067801,2:13912; 1:1840
+QN21,198,198,1,numeric_or_code,Experienced sexual dating violence,,13441,6662,0.33139332437944585,2:12550; 1:891
+QN22,199,199,1,numeric_or_code,Experienced physical dating violence,,11507,8596,0.42759787096453267,2:10299; 1:1208
+QN23,200,200,1,numeric_or_code,Felt that they were ever treated badly or unfairly in school because of their race or ethnicity,,18286,1817,0.09038451972342436,2:12530; 1:5756
+QN24,201,201,1,numeric_or_code,Were bullied on school property,,19902,201,0.009998507685420087,2:15856; 1:4046
+QN25,202,202,1,numeric_or_code,Were electronically bullied,,19898,205,0.01019748296274188,2:16475; 1:3423
+QN26,203,203,1,numeric_or_code,Felt sad or hopeless,,19863,240,0.011938516639307567,2:11755; 1:8108
+QN27,204,204,1,numeric_or_code,Seriously considered attempting suicide,,19667,436,0.02168830522807541,2:15453; 1:4214
+QN28,205,205,1,numeric_or_code,Made a plan about how they would attempt suicide,,18366,1737,0.08640501417698851,2:15154; 1:3212
+QN29,206,206,1,numeric_or_code,Attempted suicide,,19336,767,0.03815350942645376,2:17341; 1:1995
+QN30,207,207,1,numeric_or_code,"Had a suicide attempt that resulted in an injury, poisoning, or overdose that had to be treated by a doctor or nurse",,14635,5468,0.2719992040988907,2:14263; 1:372
+QN31,208,208,1,numeric_or_code,Ever smoked a cigarette,,17442,2661,0.13236830323832263,2:14331; 1:3111
+QN32,209,209,1,numeric_or_code,Smoked a cigarette before age 13 years,,16820,3283,0.16330895886186142,2:15682; 1:1138
+QN33,210,210,1,numeric_or_code,Currently smoked cigarettes,,19739,364,0.01810675023628314,2:18933; 1:806
+QN34,211,211,1,numeric_or_code,Smoked more than 10 cigarettes per day,,523,19580,0.9739839824901756,2:473; 1:50
+QN35,212,212,1,numeric_or_code,Ever used an electronic vapor product,,19804,299,0.01487340197980401,2:12835; 1:6969
+QN36,213,213,1,numeric_or_code,Currently used an electronic vapor product,,19091,1012,0.05034074516241357,2:15705; 1:3386
+QN37,214,214,1,numeric_or_code,"Usually got their electronic vapor products by buying them themselves in a convenience store, supermarket, discount store, or gas station",,2646,17457,0.868377854051634,2:2492; 1:154
+QN38,215,215,1,numeric_or_code,Currently used smokeless tobacco,,18923,1180,0.05869770680992887,2:18431; 1:492
+QN39,216,216,1,numeric_or_code,Currently smoked cigars,,18942,1161,0.05775257424265035,2:18074; 1:868
+QN40,217,217,1,numeric_or_code,Tried to quit using all tobacco products,,4337,15766,0.7842610555638462,1:2326; 2:2011
+QN41,218,218,1,numeric_or_code,Had their first drink of alcohol before age 13 years,,19248,855,0.0425309655275332,2:16404; 1:2844
+QN42,219,219,1,numeric_or_code,Currently drank alcohol,,19202,901,0.04481918121673382,2:15050; 1:4152
+QN43,220,220,1,numeric_or_code,Currently were binge drinking,,15441,4662,0.23190568571854947,2:14010; 1:1431
+QN44,221,221,1,numeric_or_code,Reported that the largest number of drinks they had in a row was 10 or more,,14414,5689,0.28299258817091977,2:14054; 1:360
+QN45,222,222,1,numeric_or_code,Usually got the alcohol they drank by someone giving it to them,,3026,17077,0.8494752027060638,2:1845; 1:1181
+QN46,223,223,1,numeric_or_code,Ever used marijuana,,16603,3500,0.17410336765656867,2:11383; 1:5220
+QN47,224,224,1,numeric_or_code,tried marijuana for the first time before age 13 years,,19239,864,0.04297865990150724,2:18067; 1:1172
+QN48,225,225,1,numeric_or_code,Currently used marijuana,,19600,503,0.02502114112321544,2:16193; 1:3407
+QN49,226,226,1,numeric_or_code,Ever took prescription pain medicine without a doctor's prescription or differently than how a doctor told them to use it,,19527,576,0.028652439934338157,2:17165; 1:2362
+QN50,227,227,1,numeric_or_code,Ever used cocaine,,16847,3256,0.1619658757399393,2:16411; 1:436
+QN51,228,228,1,numeric_or_code,Ever used inhalants,,14226,5877,0.29234442620504403,2:13344; 1:882
+QN52,229,229,1,numeric_or_code,Ever used heroin,,19322,781,0.03884992289708004,2:19016; 1:306
+QN53,230,230,1,numeric_or_code,Ever used methamphetamines,,18981,1122,0.05581256528876287,2:18641; 1:340
+QN54,231,231,1,numeric_or_code,Ever used ecstasy,,16495,3608,0.17947570014425707,2:16016; 1:479
+QN55,232,232,1,numeric_or_code,Ever injected any illegal drug,,15097,5006,0.24901755956822366,2:14905; 1:192
+QN56,233,233,1,numeric_or_code,Ever had sexual intercourse,,16121,3982,0.1980798885738447,2:10701; 1:5420
+QN57,234,234,1,numeric_or_code,Had sexual intercourse for the first time before age 13 years,,18573,1530,0.07610804357558573,2:17976; 1:597
+QN58,235,235,1,numeric_or_code,Had sexual intercourse with four or more persons during their life,,17645,2458,0.12227030791424165,2:16527; 1:1118
+QN59,236,236,1,numeric_or_code,Were currently sexually active,,18339,1764,0.08774809729891062,2:14362; 1:3977
+QN60,237,237,1,numeric_or_code,Drank alcohol or used drugs before last sexual intercourse,,3577,16526,0.8220663582549869,2:2918; 1:659
+QN61,238,238,1,numeric_or_code,Used a condom during last sexual intercourse,,3909,16194,0.805551410237278,1:2023; 2:1886
+QN62,239,239,1,numeric_or_code,Used birth control pills before last sexual intercourse with opposite-sex partner,,3489,16614,0.8264438143560663,2:2794; 1:695
+QN66,243,243,1,numeric_or_code,Described themselves as slightly or very overweight,,11795,8308,0.41327165099736357,2:7900; 1:3895
+QN67,244,244,1,numeric_or_code,Were trying to lose weight,,13936,6167,0.306770133810874,2:7529; 1:6407
+QN68,245,245,1,numeric_or_code,Did not drink fruit juice,,16608,3495,0.17385464855991642,2:10723; 1:5885
+QN69,246,246,1,numeric_or_code,Did not eat fruit,,19027,1076,0.05352434959956225,2:16728; 1:2299
+QN70,247,247,1,numeric_or_code,Did not eat green salad,,15336,4767,0.23712878674824653,2:8497; 1:6839
+QN71,248,248,1,numeric_or_code,Did not eat potatoes,,15245,4858,0.24165547430731732,2:9689; 1:5556
+QN72,249,249,1,numeric_or_code,Did not eat carrots,,15276,4827,0.24011341590807342,1:8451; 2:6825
+QN73,250,250,1,numeric_or_code,Did not eat other vegetables,,15212,4891,0.2432970203452221,2:12186; 1:3026
+QN74,251,251,1,numeric_or_code,"Did not drink a can, bottle, or glass of soda or pop",,15183,4920,0.2447395911058051,2:10800; 1:4383
+QN75,252,252,1,numeric_or_code,Did not eat breakfast,,14268,5835,0.2902551857931652,2:11427; 1:2841
+QN76,253,253,1,numeric_or_code,Were physically active at least 60 minutes per day on 5 or more days,,18876,1227,0.061035666318459934,2:9814; 1:9062
+QN77,254,254,1,numeric_or_code,Attended physical education (PE) classes on 1 or more days,,13876,6227,0.30975476297070087,2:7283; 1:6593
+QN78,255,255,1,numeric_or_code,Played on at least one sports team,,12964,7139,0.35512112620006964,1:6697; 2:6267
+QN79,256,256,1,numeric_or_code,Had a concussion from playing a sport or being physically active,,15509,4594,0.228523106004079,2:13209; 1:2300
+QN80,257,257,1,numeric_or_code,Used social media several times a day,,15203,4900,0.24374471471919615,1:11872; 2:3331
+QN81,258,258,1,numeric_or_code,Were ever tested for human immunodeficiency virus (HIV),,15519,4584,0.22802566781077452,2:14447; 1:1072
+QN82,259,259,1,numeric_or_code,Were ever tested for a sexually transmitted disease (STD),,12778,7325,0.364373476595533,2:12048; 1:730
+QN83,260,260,1,numeric_or_code,Saw a dentist,,17924,2179,0.10839178232104661,1:13356; 2:4568
+QN84,261,261,1,numeric_or_code,Reported that their mental health was most of the time or always not good,,15705,4398,0.21877331741531114,2:10897; 1:4808
+QN85,262,262,1,numeric_or_code,Got 8 or more hours of sleep,,17441,2662,0.1324180470576531,2:13435; 1:4006
+QN86,263,263,1,numeric_or_code,Experienced unstable housing,,14541,5562,0.2766751231159528,2:14043; 1:498
+QN87,264,264,1,numeric_or_code,Described their grades in school as mostly A''s or B''s,,16535,3568,0.17748594737103915,1:11679; 2:4856
+QN88,265,265,1,numeric_or_code,Reported that an adult or person at least 5 years older than them ever made them do sexual things they did not want to do,,13823,6280,0.31239118539521465,2:12648; 1:1175
+QN89,266,266,1,numeric_or_code,Reported that a parent or other adult in their home most of the time or always insulted them or put them down,,13920,6183,0.30756603492016116,2:12129; 1:1791
+QN90,267,267,1,numeric_or_code,"Reported that a parent or other adult in their home most of the time or always hit, beat, kicked, or physically hurt them in any way",,13917,6186,0.3077152663781525,2:13524; 1:393
+QN91,268,268,1,numeric_or_code,"Reported that their parents or other adults in their home most of the time or always slapped, hit, kicked, punched, or beat each other up",,13753,6350,0.31587325274834605,2:13396; 1:357
+QN92,269,269,1,numeric_or_code,currently took prescription pain medicine without a doctor's prescription or differently than how a doctor told them to use it,,12381,7722,0.38412177286972093,2:11731; 1:650
+QN93,270,270,1,numeric_or_code,ever used hallucinogenic drugs,,11171,8932,0.44431179425956324,2:10441; 1:730
+QN94,271,271,1,numeric_or_code,Verbally asked for consent the last time they had sexual contact,,5492,14611,0.7268069442371785,1:4417; 2:1075
+QN95,272,272,1,numeric_or_code,"did not drink a can, bottle, or glass of a sports drink",,11909,8194,0.40760085559369247,2:6550; 1:5359
+QN96,273,273,1,numeric_or_code,did not drink a bottle or glass of plain water,,13584,6519,0.3242799582151918,2:13145; 1:439
+QN97,274,274,1,numeric_or_code,did exercises to strengthen or tone their muscles on three or more days,,11197,8906,0.4430184549569716,1:5679; 2:5518
+QN98,275,275,1,numeric_or_code,had a sunburn,,10788,9315,0.4633636770631249,1:5868; 2:4920
+QN99,276,276,1,numeric_or_code,Reported that an adult in their household most of the time or always tried to make sure their basic needs were met,,15750,4353,0.21653484554544097,1:13575; 2:2175
+QN100,277,277,1,numeric_or_code,ever lived with a parent or guardian who was having a problem with alcohol or drug use,,13227,6876,0.3420385017161618,2:9398; 1:3829
+QN101,278,278,1,numeric_or_code,"ever lived with a parent or guardian who had severe depression, anxiety, or another mental illness, or was suicidal",,13305,6798,0.3381584838083868,2:8999; 1:4306
+QN102,279,279,1,numeric_or_code,"Have ever been separated from a parent or guardian because they went to jail, prison, or a detention center",,13342,6761,0.3363179624931602,2:10982; 1:2360
+QN103,280,280,1,numeric_or_code,strongly agree or agree that they feel close to people at their school,,11177,8926,0.44401333134358056,1:6016; 2:5161
+QN104,281,281,1,numeric_or_code,reported that their parents or other adults in their family most of the time or always know where they are going or with whom they will be,,10850,9253,0.4602795602646371,1:9038; 2:1812
+QN105,282,282,1,numeric_or_code,have been unfairly disciplined at school,,10583,9520,0.4735611600258668,2:8412; 1:2171
+QN106,283,283,1,numeric_or_code,"have serious difficulty concentrating, remembering, or making decisions",,10946,9157,0.4555041536089141,2:5685; 1:5261
+QN107,284,284,1,numeric_or_code,speak English well or very well,,10795,9308,0.46301547032781176,1:10550; 2:245
+site,1,3,3,string,Site Code,,20103,0,0.0,XX:20103
+qnfrcig,350,350,1,numeric_or_code,Currently smoked cigarettes frequently,,19739,364,0.01810675023628314,2:19579; 1:160
+qndaycig,351,351,1,numeric_or_code,Currently smoked cigarettes daily,,19739,364,0.01810675023628314,2:19601; 1:138
+qnfrevp,352,352,1,numeric_or_code,Currently used electronic vapor products frequently,,19091,1012,0.05034074516241357,2:17650; 1:1441
+qndayevp,353,353,1,numeric_or_code,Currently used electronic vapor products daily,,19091,1012,0.05034074516241357,2:17956; 1:1135
+qnfrskl,354,354,1,numeric_or_code,Currently used smokeless tobacco frequently,,18923,1180,0.05869770680992887,2:18767; 1:156
+qndayskl,355,355,1,numeric_or_code,Currently used smokeless tobacco daily,,18923,1180,0.05869770680992887,2:18784; 1:139
+qnfrcgr,356,356,1,numeric_or_code,Currently smoked cigars frequently,,18942,1161,0.05775257424265035,2:18748; 1:194
+qndaycgr,357,357,1,numeric_or_code,Currently smoked cigars daily,,18942,1161,0.05775257424265035,2:18773; 1:169
+qntb2,358,358,1,numeric_or_code,Currently smoked cigarettes or cigars,,18699,1404,0.06984032233994926,2:17465; 1:1234
+qntb3,359,359,1,numeric_or_code,Currently smoked cigarettes or cigars or used smokeless tobacco,,18543,1560,0.07760035815549918,2:17169; 1:1374
+qntb4,360,360,1,numeric_or_code,Currently smoked cigarettes or cigars or used smokeless tobacco or electronic vapor products,,17824,2279,0.11336616425409143,2:14402; 1:3422
+qntb5,361,361,1,numeric_or_code,Currently smoked cigarettes or used electronic vapor products,,18877,1226,0.060985922499129486,2:15449; 1:3428
+qniudimp,362,362,1,numeric_or_code,Used an IUD (such as Mirena or ParaGard) or implant (such as Implanon or Nexplanon) before last sexual intercourse with an opposite-sex partner,,3489,16614,0.8264438143560663,2:3170; 1:319
+qnothhpl,363,363,1,numeric_or_code,"Used birth control pills; an IUD or implant; or a shot, patch, or birth control ring before last sexual intercourse with an opposite-sex partner",,3489,16614,0.8264438143560663,2:2288; 1:1201
+qndualbc,364,364,1,numeric_or_code,"Used both a condom during last sexual intercourse and birth control pills; an IUD or implant; or a shot, patch, or birth control ring before last sexual intercourse with an opposite-sex partner",,3444,16659,0.8286822862259364,2:3030; 1:414
+qnbcnone,365,365,1,numeric_or_code,Did not use any method to prevent pregnancy during last sexual intercourse with an opposite-sex partner,,3489,16614,0.8264438143560663,2:3049; 1:440
+qnfr0,366,366,1,numeric_or_code,Did not eat fruit or drink 100% fruit juices,,16437,3666,0.18236084166542307,2:15247; 1:1190
+qnfr1,367,367,1,numeric_or_code,Ate fruit or drank 100% fruit juices one or more times per day,,16437,3666,0.18236084166542307,1:8843; 2:7594
+qnfr2,368,368,1,numeric_or_code,Ate fruit or drank 100% fruit juices two or more times per day,,16437,3666,0.18236084166542307,2:12239; 1:4198
+qnveg0,369,369,1,numeric_or_code,Did not eat vegetables,,14938,5165,0.25692682684176493,2:13795; 1:1143
+qnveg1,370,370,1,numeric_or_code,Ate vegetables one or more times per day,,14938,5165,0.25692682684176493,1:8529; 2:6409
+qnveg2,371,371,1,numeric_or_code,Ate vegetables two or more times per day,,14938,5165,0.25692682684176493,2:11301; 1:3637
+qnveg3,372,372,1,numeric_or_code,Ate vegetables three or more times per day,,14938,5165,0.25692682684176493,2:13001; 1:1937
+qnsoda1,373,373,1,numeric_or_code,"Drank a can, bottle, or glass of soda or pop one or more times per day",,15183,4920,0.2447395911058051,2:12598; 1:2585
+qnsoda2,374,374,1,numeric_or_code,"Drank a can, bottle, or glass of soda or pop two or more times per day",,15183,4920,0.2447395911058051,2:13732; 1:1451
+qnbk7day,375,375,1,numeric_or_code,Ate breakfast on all 7 days,,14268,5835,0.2902551857931652,2:10712; 1:3556
+qnpa0day,376,376,1,numeric_or_code,Did not participate in at least 60 minutes of physical activity on at least 1 day,,18876,1227,0.061035666318459934,2:16063; 1:2813
+qnpa7day,377,377,1,numeric_or_code,Were physically active at least 60 minutes per day on all 7 days,,18876,1227,0.061035666318459934,2:14027; 1:4849
+qndlype,378,378,1,numeric_or_code,Attended physical education classes on all 5 days,,13876,6227,0.30975476297070087,2:10115; 1:3761
+qnnodnt,379,379,1,numeric_or_code,Never saw a dentist,,17924,2179,0.10839178232104661,2:17570; 1:354
+qnspdrk1,380,380,1,numeric_or_code,"Drank a can, bottle, or glass of a sports drink one or more times per day",,11909,8194,0.40760085559369247,2:10419; 1:1490
+qnspdrk2,381,381,1,numeric_or_code,"Drank a can, bottle, or glass of a sports drink two or more times per day",,11909,8194,0.40760085559369247,2:11061; 1:848
+qnwater1,382,382,1,numeric_or_code,Drank a bottle or glass of plain water one or more times per day,,13584,6519,0.3242799582151918,1:10268; 2:3316
+qnwater2,383,383,1,numeric_or_code,drank a bottle or glass of plain water two or more times per day,,13584,6519,0.3242799582151918,1:9166; 2:4418
+qnwater3,384,384,1,numeric_or_code,drank a bottle or glass of plain water three or more times per day,,13584,6519,0.3242799582151918,1:7052; 2:6532
+qnillict,385,385,1,numeric_or_code,Ever used select illicit drugs,,10925,9178,0.4565487738148535,2:9688; 1:1237
+qnobese,386,386,1,numeric_or_code,Had obesity,,17814,2289,0.1138636024473959,2:14855; 1:2959
+qnowt,387,387,1,numeric_or_code,Were Overweight,,17814,2289,0.1138636024473959,2:15104; 1:2710
+weight,388,397,10,numeric_or_code,Overall Analysis Weight,,20103,0,0.0,3.7735:132; 3.7522:130; 3.8405:122; 3.4912:117; 3.7499:111; 0.2163:108; 4.0009:101; 0.2459:99; 0.2248:98; 3.8990:97; 0.3062:96; 0.0029:96
+stratum,398,400,3,numeric_or_code,Sampling Strata,,20103,0,0.0,300:8919; 201:2716; 211:2212; 101:1179; 112:759; 202:584; 113:527; 212:521; 204:409; 104:393; 103:376; 111:365
+psu,401,406,6,numeric_or_code,Primary Sampling Unit,,20103,0,0.0,786048:1607; 343307:1298; 329556:799; 472861:617; 788430:578; 87717:562; 787565:551; 30657:545; 330088:527; 143433:484; 189973:474; 30356:441
+bmipct,407,411,5,numeric_or_code,Body Mass Index Percentile,,17814,2289,0.1138636024473959,47.58:39; 70.84:37; 40.55:33; 67.00:32; 47.28:30; 62.96:30; 30.70:30; 0.00:30; 53.97:30; 42.53:26; 29.93:26; 57.32:26
+raceeth,414,415,2,numeric_or_code,Race/Ethnicity,,19733,370,0.018405213152265832,5:9700; 7:2786; 8:1814; 3:1791; 1:1334; 6:1208; 2:995; 4:105
+q6orig,416,418,3,numeric_or_code,Original unedited student height,,19834,269,0.013381087399890563,504:1686; 506:1684; 507:1633; 505:1589; 503:1552; 508:1540; 510:1365; 509:1334; 502:1256; 511:1111; 600:1083; 501:747
+q7orig,419,421,3,numeric_or_code,Original unedited student weight,,19419,684,0.03402477242202656,120:951; 130:906; 140:840; 150:800; 135:719; N:713; 125:689; 160:627; 145:606; 115:565; 110:545; 180:451

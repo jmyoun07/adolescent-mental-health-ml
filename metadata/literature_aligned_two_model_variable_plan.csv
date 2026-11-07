@@ -1,0 +1,48 @@
+domain,construct_or_variable,model1_kyrbs_enhanced,model2_kyrbs_yrbss_shared,rationale,evidence_pmids,rerun_needed_if_changed
+demographic,YEAR,include,exclude,"KYRBS pooled temporal/survey-year adjustment; not a subject-level transportable predictor",34902040,no_document_only
+demographic,SEX / sex,include,include,"Basic covariate used across adolescent suicide/depression prediction studies",39987588;36828148;36743357,no
+demographic,AGE / age_years,include,include,"Age/developmental stage adjustment and repeated predictor in KYRBS/YRBS studies",36743357;38354043,no
+demographic,GRADE / grade_9_12,include,include,"School grade captures developmental/school-stage differences; directly harmonizable after high-school restriction",35958177;34926387,no
+school_context,SCHOOL,include,exclude,"Useful KYRBS domestic adjustment; YRBSS national public file lacks comparable Korean school-type categories",36828148,yes_if_removed_from_model1
+geographic_context,CTYPE,include,exclude,"Korea domestic area-size proxy; not comparable to YRBSS public national geography",36828148,yes_if_removed_from_model1
+academic,academic_achievement_3,include,include,"Academic performance repeatedly used in KYRBS suicide studies and harmonizable to YRBSS high/middle/low",35958177;36743357;38354043,no
+socioeconomic,economic_status_3,include,exclude,"Korea subjective economic status/financial stress supported but not directly available in YRBSS",39987588;38258364;36743357,yes_if_removed_from_model1
+family,family_structure_3,include,exclude,"Family relationship/context is a known adolescent suicide-risk domain; direct YRBSS family structure harmonization unavailable",39987588,yes_if_removed_from_model1
+mental_health,stress_3,include,exclude,"Stress is a core KYRBS suicide/depression predictor; YRBSS has no direct stress equivalent",39987588;40295697;34902040,yes_if_removed_from_model1
+mental_health,gad7_total_or_high10,include,exclude,"Anxiety/GAD-7 is high-signal in KYRBS 2020-2024; no direct YRBSS GAD-7",40295697;41941504;36368053,yes_if_reducing_duplicates
+mental_health,gad7_total,consider_simplify_to_one_gad_feature,exclude,"Duplicate with gad7_total_or_high10; keep one main anxiety representation in future refit",40295697;41941504,yes
+mental_health,gad7_high10,sensitivity_or_interpretation_only,exclude,"Clinically interpretable anxiety threshold; avoid simultaneous duplicate with total score in final parsimonious refit",40295697;41941504,yes
+mental_health,loneliness_3_or_M_LON,include,exclude,"Loneliness is a core suicide-risk predictor in KYRBS and pandemic-era studies; no direct YRBSS equivalent",35958177;38258364;41941504,yes_if_reducing_duplicates
+mental_health,loneliness_3,consider_simplify_to_one_loneliness_feature,exclude,"Duplicate with loneliness_3_or_M_LON; keep one loneliness representation in future refit",35958177;38258364,yes
+mental_health,loneliness_high,sensitivity_or_interpretation_only,exclude,"Threshold version useful for interpretation but redundant with ordinal loneliness",35958177;38258364,yes
+mental_health,sleep_satisfaction_3,include,exclude,"Sleep quality/satisfaction is relevant in KYRBS but YRBSS only has sleep-hour categories",23059158;36368053,yes_if_removed_from_model1
+sleep,avg_sleep_hours / sleep_hours,include,include,"Sleep duration has meta-analytic and YRBS evidence; harmonization is approximate because YRBSS is school-night category",23059158;34926387;31271096;36858266,no
+sleep,sleep_8plus,not_current_model1_separate,include,"Binary sleep duration threshold useful in YRBSS shared model; KYRBS full uses average sleep hours",34926387;31271096,no
+general_health,PR_HT,include,exclude,"Subjective health can capture physical/psychological health not covered elsewhere; no direct YRBSS harmonization in current model",36828148,yes_if_removed_from_model1
+body_weight,PR_BI / body_image_5,include,include,"Perceived weight/body image associated with suicide attempts and US ML predictors",37291506;38998797,no
+body_weight,BMI / bmi,include,include,"BMI and perceived weight jointly relevant to suicide attempts; directly calculable in both datasets",37291506,no
+body_weight,WC_MN / trying_to_lose_weight,optional_or_sensitivity,include,"Weight-control effort supported in KYRBS suicidal-ideator study but overlaps with BMI/body image",36743357,no_for_model2_yes_if_model1_scope_changed
+physical_activity,PA_TOT / physical_activity_days,include,include,"Lifestyle and physical activity variables used in YRBS/KYRBS mental-health studies",34926387;36368053;36743357,no
+physical_activity,PA_MSC,include,not_current_shared,"Muscle-strengthening is available in YRBSS but current shared model did not include it; lower priority than PA_TOT",34926387,yes_if_added_to_model2
+sedentary,sedentary_total_avg_minutes,include,exclude,"Korean sedentary-time feature is relevant to depression but not directly matched in YRBSS 2023 public national file",36131259;34926387,yes_if_removed_from_model1
+nutrition,F_BR / breakfast_days,optional_or_sensitivity,include,"Breakfast appears in YRBS lifestyle-suicide paper; lower priority than mental health/sleep/substance domains",34926387,no_for_model2_yes_if_model1_scope_changed
+alcohol,current_alcohol,include,include,"Current alcohol use repeatedly used in KYRBS/YRBS suicidality and health-risk behavior literature",36743357;31999868;34926387,no
+alcohol,heavy_drunk_any / binge_alcohol_any,include,include,"Alcohol intensity/binge drinking appears in YRBS violence-suicidality and lifestyle studies",31271096;35792818,no
+alcohol,lifetime_alcohol_experience,include,include,"Lifetime alcohol captures risk-behavior history beyond current use and is harmonizable",31999868;36743357,no
+tobacco,any_current_tobacco,include,include,"Current tobacco/vaping is supported by YRBS and KYRBS risk-behavior literature",35792818;31334765;31999868,no
+tobacco,lifetime_tobacco_any,include,include,"Merged lifetime tobacco/vaping experience reduces redundant e-cigarette/HTP/cigarette indicators",35792818;31334765,no
+tobacco,lifetime_cigarette_experience,sensitivity_only,exclude,"Component of lifetime_tobacco_any; avoid simultaneous use with merged variable in main model",35792818;31334765,yes_if_current_main_reduced
+tobacco,secondhand_smoke_exposure_any,include,exclude,"Tobacco environment proxy in KYRBS; no direct current YRBSS national match in current harmonization",31999868,yes_if_removed_from_model1
+sexual_behavior,sexual_experience,include,include,"Sexual experience/early or forced sex is repeatedly linked with depression and suicidality in YRBS/KYRBS studies",34360215;36743357;39089441;38998797,no
+suicide_model_overlap,M_SAD_for_suicide_models / depressed_mood_for_suicide_models,conditional_include_with_sensitivity,conditional_include_with_sensitivity,"Strong predictor but conceptually overlapping with suicide item block; include/exclude sensitivity must be reported",39987588;35792818;31271096;38998797,no_already_sensitivity_done
+digital,smartphone_avg_daily_minutes / digital_high_use,include_as_kyrbs_feature,include_as_proxy_with_sensitivity,"Korean smartphone time has evidence; YRBSS social-media frequency is only a proxy and should not be overinterpreted",36141872;37650548;39719021,no_already_sensitivity_done
+violence,school_injury_treatment_any,include,exclude_or_shared_plus_sensitivity,"KYRBS safety/injury domain; YRBSS has concussion/violence items but construct differs",31271096;36858266;37650548,yes_if_removed_or_shared_plus_added
+violence,violence_treatment_any,include,exclude_or_shared_plus_sensitivity,"Supported by KYRBS latent-class and suicide-attempt literature; YRBSS victimization items are not identical",39089441;36743357;17195728,yes_if_removed_or_shared_plus_added
+substance,drug_use_lifetime,optional_or_sensitivity,shared_plus_possible_not_current,"Drug use is supported but KYRBS 2020-2021 unavailable and YRBSS has more detailed substance items",39987588;36743357;37650548,yes_if_promoted_to_main
+substance,substance_access_reported_any,sensitivity_only,exclude,"Conditional access-response variable may encode skip patterns; not a clean main predictor",31999868,yes_if_promoted_to_main
+parent_education,parent_college_or_higher_any,optional_or_sensitivity,exclude,"Socioeconomic/family proxy but overlaps with subjective SES and academic variables; YRBSS direct match not used",39987588,yes_if_promoted_to_main
+comorbidity,asthma_lifetime,sensitivity_or_component_only,exclude,"Part of atopic/allergic comorbidity domain; avoid simultaneous individual and composite overinterpretation",38354043,yes_if_simplified
+comorbidity,allergic_rhinitis_lifetime,sensitivity_or_component_only,exclude,"Directly supported by allergic rhinitis suicidality ML study but Korea-only",38354043,yes_if_simplified
+comorbidity,atopic_dermatitis_lifetime,sensitivity_or_component_only,exclude,"Atopic disease domain component; Korea-only",38354043,yes_if_simplified
+comorbidity,atopic_disease_any,include_or_preferred_composite,exclude,"Preferred parsimonious comorbidity proxy if refitting a reduced enhanced model",38354043,yes_if_current_individuals_removed
+comorbidity,atopic_disease_count,sensitivity_only,exclude,"Disease-burden sensitivity variable; do not use simultaneously with all components and any-variable in a parsimonious main model",38354043,yes_if_promoted_to_main

@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv_ml/
+venv/
+env/
+
+# Data
+data/raw_sav/
+data/processed/
+data/external_yrbss/
+*.sav
+*.sas7bdat
+*.xpt
+*.dat
+*.pkl
+*.zip
+
+# Generated outputs
+outputs/**
+!outputs/
+!outputs/.gitkeep
+!outputs/README.md
+*.joblib
+*.pickle
+*.model
+
+# Manuscript and office artifacts
+*.docx
+*.doc
+*.pdf
+*.pptx
+*.xlsx
+*.xls
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+~$*
+
+# Local credentials/config
+.env
+*.key
+*.pem
+*.token
